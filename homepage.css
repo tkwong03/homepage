@@ -1,0 +1,33 @@
+html{
+ background-color: #232629;
+ color: #ffffff;
+}
+
+.clock {
+ font-weight: 500;
+ display:flex;
+ align-items:center;
+ float:left;
+}
+
+#datetime {
+ display:flex;
+ justify-content:center;
+ padding:50px;
+}
+
+#day {
+ font-size: 100px;
+ padding:10px;
+}
+
+#hourminute {
+ line-height: .8;
+ font-size: 100px;
+ padding:10px;
+}
+
+#ampm {
+ font-size: 60px;
+ padding:10px;
+}
